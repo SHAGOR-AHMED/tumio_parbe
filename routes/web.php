@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Backend\AdminController;
 
-//for reboot system
+//reboot system
 Route::get("/reboot",function(){
     Artisan::call("config:clear");
     Artisan::call("config:cache");
