@@ -1,0 +1,43 @@
+Auth Setup
+==============
+
+1. composer require laravel/ui
+2. php artisan ui bootstrap --auth OR
+3. php artisan ui vue --auth (with install vue.js)
+4. npm install && npm run dev (run again if occure error first time)
+5. npm i vue-loader (optional)
+
+Multi Guard Setup
+===================
+Exp: admin
+Create model, controller, middleware 
+1. create admins table with the same as users table and do so as your own.
+2. create middleware and set login as your own.demo is below
+if(!Auth::guard('admin')->check()){
+   return redirect('/login/admin');
+}
+return $next($request);
+
+Go to config > auth.php and change like below:
+
+'guards' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admins',
+        ],
+    ],
+
+'providers' => [
+        'users' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\User::class,
+        ],
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Admin::class,
+        ],
+    ],
