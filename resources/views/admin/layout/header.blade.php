@@ -26,7 +26,13 @@
                             <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="fa-solid fa-arrows-to-dot"></i></a>
                         </li>
                         <li class="dropdown">
-                            <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="{{ asset('admin/images/icon.png')}}" alt="user-img" class="img-circle"> </a>
+                            <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true">
+                                @if(Auth::user()->photo)
+                                    <img src="{{ asset(Auth::user()->photo) }}" alt="user-img" class="img-circle"/>
+                                @else
+                                    <img src="{{ asset('admin/images/icon.png')}}" alt="user-img" class="img-circle"> 
+                                @endif
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('user.edit', ['user_id' => logged_in_user_id()]) }}"><i class="md md-settings"></i> Reset Profile</a></li>
                                 <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="md md-settings-power"></i> Logout</a></li>

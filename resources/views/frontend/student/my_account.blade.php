@@ -1,22 +1,6 @@
 @extends('frontend.layout.default')
 @section('title_area', 'My Account')
 @section('main_section')
-
- <style type="text/css">
-	.pending{
-		background-color: #ff0000;
-		color:#fff;
-		padding: 5px;
-		border-radius: 5px;
-	}
-
-	.published{
-		background-color: green;
-		color:#fff;
-		padding: 5px;
-		border-radius: 5px;
-	}
-</style>
 <div class="welcome py-5" id="about">
 	<div class="container">
 		<div class="row">

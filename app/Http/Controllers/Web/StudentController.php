@@ -77,21 +77,55 @@ class StudentController extends Controller
 
     public function updateProfile(Request $request){
 
-       if ($request->input('password')) {
+        if ($request->input('password')) {
+
+            $this->validate($request, [
+                'password'    => 'required|string|min:6',
+            ]);
 
             $data['password'] = md5($request->input('password'));
-            Customer::where("id", $request->input('id'))->update($data);
+            Student::where("id", $request->input('id'))->update($data);
             setMessage("message", "success", "Password Changed Successfully");
             return redirect()->back();
 
-       }else{
+        }else{
 
-            $data['customer_name'] = $request->input('customer_name');
-            $data['email_address'] = $request->input('email_address');
-            $data['mobile_no'] = $request->input('mobile_no');
+            $this->validate($request, [
+                'full_name'   => 'required|string|max:255',
+                'father_name' => 'required|string|max:255',
+                'mother_name' => 'required|string|max:255',
+                'phone'       => 'required',
+                'age'         => 'required|numeric',
+                'grade'       => 'required',
+                'district'    => 'required',
+                'address'     => 'required',
+                'fb_link'     => 'required',
+            ]);
+
+            $data['full_name'] = $request->input('full_name');
+            $data['father_name'] = $request->input('father_name');
+            $data['mother_name'] = $request->input('mother_name');
+            $data['phone'] = $request->input('phone');
+            $data['email'] = $request->input('email');
+            $data['age'] = $request->input('age');
+            $data['grade'] = $request->input('grade');
+            $data['school'] = $request->input('school');
+            $data['district'] = $request->input('district');
             $data['address'] = $request->input('address');
-            Customer::where("id", $request->input('id'))->update($data);
-            setMessage("message", "success", "Successful");
+            $data['fb_link'] = $request->input('fb_link');
+
+            if ($request->hasFile('photo')) {
+                $folder = "images/students_photo/";
+                $pictureinfo = $request->file("photo");
+                $picture_name = "STUDENT-" . time() . "." . $pictureinfo->getClientOriginalExtension();
+                $pictureinfo->move(public_path($folder), $picture_name);
+                $picture_url = $folder . $picture_name;
+                $data['photo'] = $picture_url;
+            }
+
+            Student::where("id", $request->input('id'))->update($data);
+
+            setMessage("message", "success", "Profile Updated");
             return redirect()->back();
 
        }

@@ -14,6 +14,12 @@
   </div>
 </footer>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+	    $('#myTable').DataTable();
+	} );
+</script>
+
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
 <script src="{{asset("frontend")}}/assets/js/popper.min.js"></script>

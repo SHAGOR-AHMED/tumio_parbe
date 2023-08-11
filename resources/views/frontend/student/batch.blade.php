@@ -19,7 +19,7 @@
                 </div>
 			</div>
 			<div class="col-lg-9" style="border:1px solid #e2e2e2;">
-				<table id="order_table" class="table table-striped table-bordered" style="width:100%">
+				<table id="myTable" class="table table-striped table-bordered" border="1" style="width:100%">
 	                <thead>
 	                    <tr>
 	                        <th>SN</th>
@@ -46,9 +46,4 @@
 	</div>
 </div>
 
-<!-- JS code -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-<script type="text/javascript">
-	
-</script>
 @endsection
