@@ -1,0 +1,325 @@
+body,
+p {
+    line-height: 1.2
+}
+
+.container,
+.fb-like-widget .fb-page.fb_iframe_widget,
+.fb-like-widget .fb_iframe_widget span,
+.fb-like-widget .fb_iframe_widget span iframe {
+    width: 100%
+}
+
+*,
+.btn,
+.btn:focus,
+:focus {
+    outline: 0 !important;
+    text-decoration: none
+}
+
+.whatsapp_chat {
+    bottom: 23px;
+    right: 90px;
+    position: fixed;
+    z-index: 1
+}
+
+.whatsapp_chat a {
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    box-shadow: rgb(0 0 0 / 15%) 0 4px 12px 0
+}
+
+.hm-product-grid-btm h5,
+img {
+    height: auto
+}
+
+.whatsapp_chat a i {
+    font-size: 40px;
+    color: #fff
+}
+
+a,
+button,
+input {
+    outline: 0;
+    border: 0
+}
+
+a,
+a:focus,
+a:hover,
+button:focus,
+button:hover {
+    text-decoration: none;
+    outline: 0
+}
+
+body {
+    background: #fff;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400
+}
+
+.container-lg,
+.container-md,
+.container-sm,
+.container-xlg {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.container-lg:after,
+.container-lg:before,
+.container-md:after,
+.container-md:before,
+.container-sm:after,
+.container-sm:beofre,
+.container-xlg:after,
+.container-xlg:before,
+.container-xs:after,
+.container-xs:beofre {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.container {
+    max-width: 1480px
+}
+
+.reset-list,
+.ulc {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 400
+}
+
+.first:first-child {
+    padding-left: 0;
+    margin-left: 0
+}
+
+.last:last-child {
+    padding-right: 0;
+    margin-right: 0
+}
+
+img {
+    max-width: 100%
+}
+
+.hide-lg,
+.hide-md,
+.hide-sm,
+.hide-xs {
+    display: block !important
+}
+
+.show-lg,
+.show-md,
+.show-sm,
+.show-xs {
+    display: none !important
+}
+
+.divider {
+    line-height: 0;
+    font-size: 0
+}
+
+.overlay-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10
+}
+
+.inline-bg {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important
+}
+
+form .bootstrap-select {
+    text-transform: uppercase;
+    color: #710023;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    width: 100% !important
+}
+
+form .bootstrap-select button {
+    background: 0 0;
+    border: 0;
+    color: #710023;
+    text-transform: uppercase;
+    font-size: 16px
+}
+
+form .bootstrap-select .caret {
+    border: 0
+}
+
+form .bootstrap-select .caret::before {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    color: #710023;
+    font-size: 22px;
+    padding-right: 0;
+    position: absolute;
+    top: -6px;
+    right: 2px;
+    line-height: 15px
+}
+
+form .bootstrap-select.open .caret::before {
+    content: "\f106"
+}
+
+form .btn-default.active,
+form .btn-default:active,
+form .open>.dropdown-toggle.btn-default,
+form .open>.dropdown-toggle.btn-default:hover {
+    color: #710023;
+    background-color: transparent;
+    border: 0
+}
+
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover,
+form .btn-default:focus,
+form .btn-default:hover {
+    color: #710023;
+    background-color: transparent;
+    border: 0;
+    outline: 0 !important
+}
+
+form .bootstrap-select .dropdown-toggle:focus {
+    outline: 0 !important
+}
+
+form .dropdown-menu {
+    margin: 0;
+    background-color: #cabb9f;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 12px 0 10px
+}
+
+form .dropdown-menu li {
+    position: relative;
+    margin-bottom: 6px
+}
+
+form .dropdown-menu li a {
+    padding-top: 6px;
+    color: #fff
+}
+
+.fl-cty-sidebar-lft {
+    width: 18%
+}
+
+.fl-cty-product-rgt {
+    width: 82%
+}
+
+.product-lst-grid-wrp>ul>li {
+    width: 25%
+}
+
+.hm-product-grid {
+    min-height: auto
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+    background-color: #710023
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    display: none
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ '
+}
+
+.rate>input:checked~label {
+    color: #ffc700
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08
+}
+
+.rating-container .form-control:focus,
+.rating-container .form-control:hover {
+    background: #fff;
+    border: 1px solid #ced4da
+}
+
+.rating-container input:focus,
+.rating-container textarea:focus {
+    color: #000
+}
+
+.hm-pagination-wrp .pagination {
+    flex-wrap: wrap
+}

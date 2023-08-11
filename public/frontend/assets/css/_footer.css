@@ -1,0 +1,552 @@
+.fb-custom-ba {
+    overflow: hidden;
+}
+
+.ftr-col-1 ul li a i,
+.ftr-menu-title {
+    display: inline-block;
+    vertical-align: baseline;
+    color: #fff
+}
+
+.benifits-promotion-dsc h2,
+.ftr-col-2 a {
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.ftr-col-1 ul li a:hover i,
+.ftr-col-2 a {
+    background: #1caee5
+}
+
+.footer-wrp {
+    background-image: url("../images/footer-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #173f54
+}
+
+.footer-top {
+    background-color: rgb(0 0 0 / 40%);
+    position: relative;
+    padding-bottom: 25px
+}
+
+.ftr-col-1,
+.ftr-col-2,
+.ftr-col-3,
+.ftr-col-4 {
+    width: 30%;
+    float: left;
+    padding-right: 15px
+}
+
+.ftr-col-1 {
+    width: 22%;
+    padding: 20px 10px 22px
+}
+
+.ftr-col-2 {
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 35px
+}
+
+.ftr-col-3 {
+    width: 16%;
+    padding-right: 20px
+}
+
+.ftr-col-4 {
+    width: 14%
+}
+
+.ftr-col-5 {
+    width: 23%;
+    float: left;
+    background: 0 0;
+    padding: 0
+}
+
+.ftr-menu-title {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 45px;
+    border-bottom: 2px solid #1caee5;
+    padding-bottom: 15px
+}
+
+.ftr-col-1 ul li a {
+    position: relative;
+    padding: 8px 10px 10px 40px
+}
+
+.ftr-col-1 ul li a i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background: #4a5678;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    transition: .5s;
+    padding-left: 1px
+}
+
+.ftr-menu ul li {
+    display: block;
+    padding-bottom: 15px
+}
+
+.ftr-col-2 ul li,
+.ftr-col-4 ul li a,
+.ftr-menu ul li a {
+    display: inline-block;
+    position: relative;
+    vertical-align: baseline
+}
+
+.ftr-col-1 ul li:first-child,
+.ftr-col-3 ul li,
+.ftr-col-4 ul li {
+    padding-bottom: 10px
+}
+
+.ftr-col-1 ul li {
+    padding-bottom: 18px
+}
+
+.ftr-col-2 ul li,
+.ftr-menu ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.1;
+    color: #c9c9c9;
+    font-weight: 400;
+    text-transform: capitalize
+}
+
+.ftr-col-2 ul li {
+    display: block;
+    float: left;
+    width: 100%
+}
+
+.footer-btm-rgt ul li a:hover,
+.ftr-menu ul li a:hover {
+    color: #07b9e9;
+    letter-spacing: .5px
+}
+
+.footer-btm-rgt ul li:last-child a:after,
+.ftr-col-4 ul li a:after,
+.ftr-col-5 ul li a:after {
+    content: none
+}
+
+.ftr-col-4 ul li a {
+    text-transform: initial
+}
+
+.ftr-col-4 ul li a i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #2acda0
+}
+
+.ftr-col-4 ul li strong {
+    display: block;
+    vertical-align: baseline;
+    padding-bottom: 0
+}
+
+.benifits-promotion-dsc a,
+.footer-btm-rgt ul li a,
+.ftr-col-2 a,
+.ftr-to-top a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff
+}
+
+.footer-btm-rgt span {
+    color: #fff
+}
+
+.ftr-col-2 a {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px
+}
+
+.benifits-promotion-img {
+    position: relative
+}
+
+.benifits-promotion-dsc-wrp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.benifits-promotion-dsc {
+    float: right;
+    text-align: center
+}
+
+.benifits-promotion-dsc h2 {
+    color: #fff;
+    font-weight: 400
+}
+
+.benifits-promotion-dsc a {
+    vertical-align: baseline;
+    font-size: 18px;
+    line-height: 1;
+    border: 2px;
+    padding: 10px 30px;
+    border-radius: 5px
+}
+
+.benifits-promotion-dsc a:hover {
+    background: #1caee5;
+    border-color: #1caee5
+}
+
+.footer-btm {
+    background: rgb(0 0 0 / 75%);
+    padding: 20px 0
+}
+
+.footer-btm-lft {
+    float: none
+}
+
+.footer-btm-lft p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 0;
+    padding-top: 2px;
+    text-align: center
+}
+
+.footer-btm-rgt {
+    float: right
+}
+
+.footer-btm-rgt ul li {
+    float: left;
+    padding: 0 10px;
+    position: relative
+}
+
+.footer-btm-rgt ul li a {
+    vertical-align: baseline;
+    font-size: 15px;
+    line-height: 1
+}
+
+.footer-btm-rgt ul li a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    width: 1px;
+    height: 15px;
+    background: #fff
+}
+
+.ftr-ssl-cm-logo-wrp {
+    background: #fff;
+    padding: 0
+}
+
+.show-menu-xs-wrp,
+.xs-footer-menu-sec-wrp {
+    display: none
+}
+
+.ftr-to-top {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    top: 110px;
+    background: #1caee5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 2px
+}
+
+.ftr-to-top a {
+    vertical-align: baseline
+}
+
+.ftr-menu-text {
+    color: #c9c9c9;
+    font-weight: 400
+}
+
+
+@media(max-width:1199px) {
+
+    .ftr-logo,
+    .ftr-socail-icon p {
+        text-align: center
+    }
+
+    .ftr-menu-title {
+        font-size: 23px;
+        padding-top: 35px
+    }
+
+    .ftr-col-1,
+    .ftr-col-2,
+    .ftr-col-3 {
+        width: 33.3333%
+    }
+
+    .ftr-col-4,
+    .ftr-col-5 {
+        width: 50%;
+        float: left
+    }
+
+    .ftr-col-5:last-child {
+        clear: none
+    }
+
+    .ftr-menu ul li a br {
+        display: none
+    }
+
+    .ftr-logo {
+        float: none
+    }
+
+    .ftr-col-1 {
+        width: 33.3333%;
+        padding-right: 0;
+        padding-bottom: 30px
+    }
+
+    .ftr-socail-icon ul {
+        margin: 0 auto;
+        text-align: center;
+        display: table
+    }
+
+    .fl-lang {
+        justify-content: center
+    }
+
+    .ftr-col-1 .hdr-language {
+        float: none !important
+    }
+
+    .benifits-promotion-dsc h2 {
+        font-size: 45px
+    }
+}
+
+@media(max-width:991px) {
+    .benifits-promotion-dsc h2 {
+        font-size: 42px
+    }
+}
+
+@media(max-width:767px) {
+    .ftr-menu {
+        padding-bottom: 20px;
+        text-align: left
+    }
+
+    .footer-btm-lft,
+    .footer-btm-rgt {
+        text-align: center;
+        float: none
+    }
+
+    .ftr-menu-title {
+        font-size: 20px
+    }
+
+    .footer-btm-lft {
+        padding-bottom: 0
+    }
+
+    .footer-btm-rgt ul {
+        display: table;
+        margin: 0 auto
+    }
+
+    .ftr-col-4 ul li a {
+        padding-left: 0
+    }
+
+    .ftr-ssl-cm-logo-wrp {
+        padding-top: 0
+    }
+
+    .ftr-col-1,
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4 {
+        width: 50%
+    }
+
+    .ftr-col-3 {
+        clear: left
+    }
+
+    .ftr-col-4:last-child {
+        clear: none
+    }
+
+    .ftr-col-2,
+    .ftr-col-4 {
+        padding-left: 20px
+    }
+
+    .benifits-promotion-dsc h2 {
+        font-size: 38px
+    }
+
+    .benifits-promotion-dsc {
+        float: none
+    }
+
+    .ssl-slider.slick-dotted.slick-slider {
+        margin-bottom: 20px !important
+    }
+
+    .ssl-slider-cntlr {
+        padding: 20px
+    }
+    .app-icons span {
+        display: block;
+        margin-right: 0 !important;
+        margin-bottom: 15px;
+    }
+    .app-icons a {
+        display: block;
+        margin-right: 0 !important;
+        margin-bottom: 15px;
+    }
+    .app-icons a:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:575px) {
+
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4,
+    .ftr-col-5 {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: 15px
+    }
+
+    .ftr-top-innr {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .ftr-col-4.ftr-menu ul li:first-child {
+        padding-bottom: 15px
+    }
+
+    .footer-top {
+        padding-top: 40px;
+        padding-bottom: 30px
+    }
+
+    .ftr-col-4 ul li a {
+        display: initial
+    }
+
+    .ftr-menu-title:after {
+        left: 50%
+    }
+
+    .ftr-col-1,
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4 {
+        width: 100%
+    }
+
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4 {
+        padding-left: 0;
+        padding-bottom: 0
+    }
+
+    .ftr-menu-title {
+        font-size: 20px;
+        padding-top: 25px
+    }
+
+    .benifits-promotion-dsc h2 {
+        font-size: 35px
+    }
+}
+
+@media(max-width:479px) {
+    .xs-footer-menu-wrp ul li a {
+        font-size: 14px
+    }
+
+    .xs-footer-menu-wrp ul li:nth-child(3) a {
+        width: 40px;
+        height: 40px
+    }
+
+    .xs-footer-menu-wrp ul li:nth-child(3) a i {
+        font-size: 22px;
+        line-height: 35px
+    }
+
+    .benifits-promotion-dsc h2 {
+        font-size: 30px
+    }
+
+    .benifits-promotion-dsc a {
+        font-size: 14px;
+        padding: 5px 20px
+    }
+}
+
+@media(max-width:400px) {
+    .benifits-promotion-dsc h2 {
+        font-size: 24px
+    }
+}

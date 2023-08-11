@@ -12,10 +12,10 @@ Auth::routes();
  */
 
 Route::namespace('App\Http\Controllers')->group(function(){
+
     Route::middleware('auth')->namespace('Backend')->prefix('admin')->group(function(){
 
         Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
-
         //Course
         Route::namespace('Course')->prefix('course')->group(function(){
             Route::get('/add',                   'IndexController@index')->name('course.add');

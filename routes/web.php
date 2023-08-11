@@ -15,8 +15,33 @@ Route::get("/reboot",function(){
     return '<center><h1>System Rebooted!</h1></center>';
 });
 
-Route::get('/', function () {
-    return view('welcome');
+Route::namespace('App\Http\Controllers')->group(function(){
+
+    Route::namespace('Web')->group(function(){
+
+        Route::get('/', 'WebController@index');
+        Route::post('/save-student',              "WebController@saveStudent");
+        Route::get('/our-courses',                "WebController@ourCourses");
+        Route::get('/our-batches',                "WebController@ourBatches");
+
+        Route::post('student-login-check',          "StudentController@studentLoginCheck");
+        Route::get('my-account',                    "StudentController@myAccount");
+        Route::get('my-course/{student_id}',        "StudentController@myCourse");
+        Route::post('save-student-course',          "StudentController@saveStudentCourse");
+        Route::get('edit-my-profile/{student_id}',  "StudentController@editProfile");
+        Route::post('update-profile',               "StudentController@updateProfile");
+        Route::get('student-logout',                "StudentController@studentLogout");
+
+        Route::get('/', function () {
+            return view("frontend.member_panel");
+        });
+        
+        Route::get('/student-account-signup', function(){
+            return view("frontend.student_account_signup");
+        });
+
+    });
+
 });
 
 //backend route
